@@ -1,9 +1,9 @@
 [build]
-    command = "eleventy"
-    publish = "_site"
-    functions = "functions"
+  command = "eleventy"
+  publish = "_site"
+  functions = "functions"
 
-    [[redirects]]
-    from ="/new"
-    to = "/.netlify/functions/new"
-    status = 200
+[[redirects]]
+  from = "/new"
+  to = "/.netlify/functions/new"
+  status = 200
